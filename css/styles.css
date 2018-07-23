@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+*header
+*
+*/
+
+.header-text {
+  text-align: left;
+  float: right;
+  margin-top: 20px;
+}
+
+.header-text h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.header-text p {
+  font-size: 20px;
+}
+
+.head-logo {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+/*
+*main
+*
+*/
+
+.home {
+  background: url('../img/content.jpg') center fixed;
+  height: 520px;
+  position: relative;
+  display: table;
+  width: 100%;
+  background-size: cover;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding img {
+  width: 100%;
+}
+
+/*
+*footer
+*
+*/
+
+footer {
+  width: 100%;
+  background-color: #1166af;
+  color: #fff;
+}
+
+.fa {
+  padding: 2% 10% 0 10%;
+  font-size: 25px;
+  color: #fff;
+}
+
+.fa:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer p {
+  margin-bottom: 0;
+}
+
+/*
+*
+*media
+*/
